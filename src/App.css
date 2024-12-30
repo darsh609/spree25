@@ -1,0 +1,238 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .road {
+  width: 100%;
+  height: 200px;
+  background: gray;
+  position: relative;
+}
+
+.vehicle {
+  width: 50px;
+  height: 25px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  animation: moveVehicle 5s linear infinite;
+}
+
+@keyframes moveVehicle {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+} */
+
+
+
+/* .road {
+  width: 100%;
+  height: 100vh;
+  background: gray;
+  position: relative;
+  overflow: hidden;
+} */
+
+/* .vehicle {
+  width: 50px;
+  height: 25px;
+  background: red;
+  position: absolute;
+  bottom: 50px; Start below the visible area
+  left: 0;
+  transform: rotate(35deg); Rotate the vehicle
+  animation: moveVehicle 5s linear infinite ;
+}
+
+@keyframes moveVehicle { */
+  /* 0% {
+    bottom: 90%; Start near the bottom-left corner
+    left: 0;
+  }
+  50% {
+    bottom: 70%; Move to the middle of the right edge
+    left: 50%; Move horizontally to the right-most edge
+  }
+  100% {
+    bottom: 50%; Move to the middle of the right edge
+    left: 100%; Move horizontally to the right-most edge
+  }
+} */
+
+/* .vehicle-reverse {
+  width: 50px;
+  height: 25px;
+  background: blue;
+  position: absolute;
+  bottom: 100px;
+  left: 100%;
+  transform: rotate(135deg);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+} */
+
+/* .vehicle-reverse.animate {
+  opacity: 1;
+  animation: moveVehicleBackward 5s linear infinite;
+} */
+
+
+
+/* @keyframes moveVehicleBackward {
+  0% {
+    bottom: 50%; Start near the bottom-left corner
+    left: 100%;
+  }
+  50% {
+    bottom: 30%; Move to the middle of the right edge
+    left: 50%; Move horizontally to the right-most edge
+  }
+  100% {
+    bottom: 10%; Move to the middle of the right edge
+    left: 0; /
+  }
+} */
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+/* 
+.line-container {
+  position: relative;
+  height: 100px;
+  margin-top: 10%;
+  margin-left: 10%;
+ 
+ 
+}
+
+.moving-object {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: left 0.02s linear;
+}
+
+.point {
+  position: absolute;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .icon {
+  color:black;
+  font-size: 40px;
+}
+
+.info-box {
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 25px;
+  text-align: center;
+} */
+
+/* Media Queries */
+ /* @media (max-width: 768px) {
+  .moving-object {
+    width: 15px;
+    height: 15px;
+  }
+
+  .point {
+    width: 8px;
+    height: 8px;
+  }
+
+  .icon {
+    font-size: 12px;
+  }
+
+  .info-box {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .line-container {
+    height: 40px;
+  }
+
+  .moving-object {
+    width: 10px;
+    height: 10px;
+  }
+
+  .point {
+    width: 5px;
+    height: 5px;
+  }
+
+  .icon {
+    font-size: 10px;
+  }
+
+  .info-box {
+    font-size: 8px;
+  }
+} */
